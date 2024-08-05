@@ -1,0 +1,7 @@
+server:
+    port: ${API_GATEWAY_PORT:9000}
+spring:
+    application:
+        name: SpringCloudChallenge
+    main:
+        web-application-type: reactive

@@ -1,0 +1,13 @@
+server:
+    port: ${API_GATEWAY_PORT:9000}
+spring:
+    application:
+        name: SpringCloudPractice
+    main:
+        web-application-type: reactive
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka
+        fetchRegistry: true
+        registerWithEureka: true
